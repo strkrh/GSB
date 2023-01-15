@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fraisforfait">
+
+    <include layout="@layout/entete"/>
+
+    <TextView
+        android:labelFor="@+id/TV_FraisAuForfait"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Frais Au Forfait"
+        android:textColor="#0D3C0D"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+    <TextView
+        android:labelFor="@+id/TV_Typedeforfait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Type de Forfait :"
+        android:textColor="#233023"
+        android:textSize="20dp" />
+
+
+        <Spinner
+            android:id="@+id/TypedeForfait_FAF"
+            android:entries="@array/typeForfait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9FDB7"
+            android:padding="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+    <TextView
+        android:labelFor="@+id/TV_Quantité"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Quantité :"
+        android:textColor="#233023"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/Quantite_FAF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="#E9FDB7"
+        android:hint="Saisir une quantite"
+        android:textColor="#CCEA7D" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtsomme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:labelFor="@+id/TV_DatedesFrais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Date des Frais :"
+        android:textColor="#233023"
+        android:textSize="20dp" />
+    <CalendarView
+        android:id="@+id/calendrier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/main_button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:backgroundTint="#B5E180"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Ajouter"
+        android:textColor="#233023"
+        app:cornerRadius="30dp" />
+
+
+
+
+</LinearLayout>

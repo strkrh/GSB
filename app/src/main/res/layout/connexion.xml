@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".connexion">
+
+    <include layout="@layout/entete"/>
+
+    <TextView
+        android:labelFor="@+id/TV_connexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="connexion"
+        android:textColor="#0D3C0D"
+        android:textSize="40dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:labelFor="@+id/TV_codeduvisiteur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="code visiteur :"
+            android:textColor="#233023"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/Codevisiteur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:background="#E9FDB7"
+            android:hint="Saisir votre code"
+            android:textColor="#CCEA7D" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:labelFor="@+id/TV_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="E-mail :"
+            android:textColor="#233023"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:background="#E9FDB7"
+            android:hint="nom.prenom@exemple.com"
+            android:textColor="#CCEA7D" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/click_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#257114"
+        android:padding="16dp"
+        android:textSize="16dp"
+        android:onClick="click_code"
+        android:text="envoyer" />
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/codeVerif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:hint="nouveau code" />
+        <Button
+            android:id="@+id/main_button_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#257114"
+            android:padding="16dp"
+            android:textSize="16dp"
+            android:onClick="Valide_code"
+            android:text="valider" />
+    </LinearLayout>
+</LinearLayout>

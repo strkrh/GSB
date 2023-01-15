@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fraishorsforfait">
+
+    <include layout="@layout/entete"/>
+    <TextView
+        android:labelFor="@+id/TV_FraisHorsForfait"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Frais Hors Forfait"
+        android:textColor="#0D3C0D"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:labelFor="@+id/TV_Libelle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Libellé :"
+            android:textColor="#233023"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/libelle_FHF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:background="#E9FDB7"
+            android:hint="Saisir votre libelle"
+            android:textColor="#CCEA7D" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:labelFor="@+id/TV_Montant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Montant :"
+            android:textColor="#233023"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Montant_FHF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:background="#E9FDB7"
+            android:hint="Saisir votre montant"
+            android:textColor="#CCEA7D" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:labelFor="@+id/TV_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Date :"
+            android:textColor="#233023"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Date_FHF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:background="#E9FDB7"
+            android:hint="Saisir une date"
+            android:textColor="#CCEA7D" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        tools:context="fraishorsforfait">
+    <Button
+        android:id="@+id/main_button_6"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:backgroundTint="#B5E180"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Modifier"
+        android:textColor="#233023"
+        app:cornerRadius="30dp" />
+    <Button
+        android:id="@+id/main_button_7"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="#B5E180"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Supprimer"
+        android:textColor="#233023"
+        app:cornerRadius="30dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

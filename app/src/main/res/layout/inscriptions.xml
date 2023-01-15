@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".inscriptions">
+
+    <include layout="@layout/entete"/>
+
+    <TextView
+        android:labelFor="@+id/TV_Inscription"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="115dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Inscription"
+        android:textColor="#0D3C0D"
+        android:textSize="40dp" />
+
+    <TextView
+        android:labelFor="@+id/TV_Nom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Nom"
+        android:textColor="#243103"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/Nom_Inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:hint="Entrez votre nom"
+        android:textColor="#708E25"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:labelFor="@+id/TV_Prenom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Prenom"
+        android:textColor="#243103"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/Prenom_Inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:hint="Entrez votre precom"
+        android:textColor="#708E25"
+        android:textSize="15dp"/>
+    <TextView
+        android:labelFor="@+id/TV_E_mail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="E-mail"
+        android:textColor="#243103"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/email_Inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:hint="example@mail.com"
+        android:textColor="#708E25"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:labelFor="@+id/TV_Motdepasse2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Mot de passe"
+        android:textColor="#243103"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/Motdepasse_Inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:hint="********"
+        android:textColor="#708E25"
+        android:textSize="15dp"/>
+    <TextView
+        android:labelFor="@+id/TV_codeduvisiteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="code du visiteur"
+        android:textColor="#243103"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/codeduvisiteur_Inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:hint=""
+        android:textColor="#708E25"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".MainActivity5">
+
+        <TextView
+            android:labelFor="@+id/TV_Vousavezdejauncompte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Vous avez deja un compte? "
+            android:textColor="#243103"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/main_button_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E5FCB6"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Mot de passe oublié?"
+            android:textColor="#233023" />
+
+
+    </LinearLayout>
+    <TextView
+        android:labelFor="@+id/jacceptelesconditionsdutilisationetlapolitiquedeconfidentialité"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="j'accepte les conditions d'utilisation et la politique de confidentialité."
+        android:textColor="#243103"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/main_button_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#B5E180"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="S'inscrire"
+        android:textColor="#233023"
+        app:cornerRadius="5dp" />
+</LinearLayout>
