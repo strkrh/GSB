@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="fr.be2.gsb">
+    package="fr.be2.gsb_rs">
 
     <application
         android:allowBackup="true"
@@ -14,30 +14,30 @@
         android:theme="@style/Theme.GSB"
         tools:targetApi="31">
         <activity
-            android:name=".inscriptions"
+            android:name="fr.be2.gsb_rs.inscriptions"
             android:exported="false" />
         <activity
-            android:name=".consultationfrais"
+            android:name="fr.be2.gsb_rs.consultationfrais"
             android:exported="false" />
         <activity
-            android:name=".historiqueenvois"
+            android:name="fr.be2.gsb_rs.historiqueenvois"
             android:exported="false" />
         <activity
-            android:name=".parametres"
+            android:name="fr.be2.gsb_rs.parametres"
             android:exported="false"
             />
         <activity
-            android:name=".fraishorsforfait"
+            android:name="fr.be2.gsb_rs.fraishorsforfait"
             android:exported="false" />
         <activity
-            android:name=".connexion"
+            android:name="fr.be2.gsb_rs.connexion"
             android:exported="false" />
 
         <activity
-            android:name=".fraisforfait"
+            android:name="fr.be2.gsb_rs.fraisforfait"
             android:exported="false" />
         <activity
-            android:name=".menu"
+            android:name="fr.be2.gsb_rs.menu"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

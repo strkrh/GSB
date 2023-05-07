@@ -76,25 +76,52 @@
 
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:labelFor="@+id/TV_DatedesFrais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Date des Frais :"
+            android:textColor="#233023"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/txtDateFrais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:background="#E9FDB7"
+            android:text=""/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAlignBottom="false"
+            android:longClickable="false"
+            android:onClick="ShowCal"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+
+
+    </LinearLayout>
     <TextView
         android:id="@+id/txtsomme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""/>
 
-    <TextView
-        android:labelFor="@+id/TV_DatedesFrais"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="9dp"
-        android:fontFamily="@font/quicksand_medium"
-        android:text="Date des Frais :"
-        android:textColor="#233023"
-        android:textSize="20dp" />
-    <CalendarView
-        android:id="@+id/calendrier"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+
+
 
     <Button
         android:id="@+id/main_button_5"
@@ -104,6 +131,7 @@
         android:backgroundTint="#B5E180"
         android:fontFamily="@font/quicksand_medium"
         android:text="Ajouter"
+        android:onClick="Monclick"
         android:textColor="#233023"
         app:cornerRadius="30dp" />
 

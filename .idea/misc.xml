@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1955" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/drawable/ic_cousines_background.xml" value="0.121" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1955" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/font/asap_medium.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/font/quicksand_light.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/font/quicksand_medium.xml" value="0.22407407407407406" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/activity_inscriptions.xml" value="0.1" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/activity_main10.xml" value="0.1859375" />
@@ -17,19 +21,25 @@
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/activity_main8.xml" value="0.2" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/activity_main9.xml" value="0.1859375" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/connexion.xml" value="0.22" />
-        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/consultationfrais.xml" value="0.1431159420289855" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/consultationfrais.xml" value="0.25" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/country_info.xml" value="0.5" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/entete.xml" value="0.2" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/fragment_first.xml" value="0.2" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/frais_info.xml" value="0.25" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/fraisforfait.xml" value="0.25" />
-        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/fraishorsforfait.xml" value="0.22" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/fraishorsforfait.xml" value="0.25" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/historiqueenvois.xml" value="0.19519927536231885" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/inscription.xml" value="0.1" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/inscriptions.xml" value="0.22" />
-        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/menu.xml" value="0.1816123188405797" />
-        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/parametres.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/menu.xml" value="0.22" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/parametres.xml" value="0.25" />
         <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/layout/reinitialisationmdp.xml" value="0.22" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/mipmap-anydpi-v26/ic_cousines.xml" value="0.121" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/mipmap-anydpi-v26/ic_cousines_round.xml" value="0.121" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+        <entry key="..\:/Users/sitruk/AndroidStudioProjects/GSB/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
       </map>
     </option>
   </component>

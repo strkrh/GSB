@@ -1,4 +1,4 @@
-package fr.be2.gsb;
+package fr.be2.gsb_rs;
 
 import android.content.Context;
 

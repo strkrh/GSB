@@ -1,6 +1,4 @@
-package fr.be2.gsb;
-
-import androidx.appcompat.app.AppCompatActivity;
+package fr.be2.gsb_rs;
 
 import android.os.Bundle;
 

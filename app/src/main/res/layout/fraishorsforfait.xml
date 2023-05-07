@@ -36,13 +36,15 @@
             android:textColor="#233023"
             android:textSize="20dp" />
 
+
+
         <EditText
             android:id="@+id/libelle_FHF"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="4dp"
             android:background="#E9FDB7"
-            android:hint="Saisir votre libelle"
+            android:hint="Saisir votre montant"
             android:textColor="#CCEA7D" />
 
     </LinearLayout>
@@ -87,15 +89,26 @@
             android:text="Date :"
             android:textColor="#233023"
             android:textSize="20dp" />
-
-        <EditText
-            android:id="@+id/Date_FHF"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/txtdatefrais"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="4dp"
+            android:padding="30dp"
             android:background="#E9FDB7"
-            android:hint="Saisir une date"
-            android:textColor="#CCEA7D" />
+            android:text=""/>
+
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ED80AFD6"
+            android:baselineAlignBottom="false"
+            android:longClickable="false"
+            android:onClick="ShowCal"
+            android:scaleType="centerInside"
+            app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
 
     </LinearLayout>
 
@@ -107,12 +120,24 @@
         android:layout_marginTop="100dp"
         android:orientation="horizontal"
         tools:context="fraishorsforfait">
+        <Button
+            android:id="@+id/main_button_10"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:backgroundTint="#B5E180"
+            android:fontFamily="@font/quicksand_medium"
+            android:text="Ajouter"
+            android:textColor="#233023"
+            android:onClick="MyClick"
+            app:cornerRadius="30dp" />
     <Button
         android:id="@+id/main_button_6"
-        android:layout_width="150dp"
+        android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="30dp"
+        android:layout_margin="3dp"
         android:backgroundTint="#B5E180"
         android:fontFamily="@font/quicksand_medium"
         android:text="Modifier"
@@ -120,10 +145,10 @@
         app:cornerRadius="30dp" />
     <Button
         android:id="@+id/main_button_7"
-        android:layout_width="150dp"
+        android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
+        android:layout_margin="1dp"
         android:backgroundTint="#B5E180"
         android:fontFamily="@font/quicksand_medium"
         android:text="Supprimer"

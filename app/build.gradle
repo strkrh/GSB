@@ -3,10 +3,10 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
-        applicationId "fr.be2.gsb"
+        applicationId "fr.be2.gsb_rs"
         minSdk 21
         targetSdk 32
         versionCode 1

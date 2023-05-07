@@ -9,6 +9,7 @@
     tools:context=".parametres">
 
     <include layout="@layout/entete"/>
+
     <TextView
         android:labelFor="@+id/TV_Parametres"
         android:layout_width="wrap_content"
@@ -19,6 +20,7 @@
         android:text="Parametres"
         android:textColor="#0D3C0D"
         android:textSize="40dp" />
+
     <TextView
         android:labelFor="@+id/TV_E_mail3"
         android:layout_width="wrap_content"
@@ -28,8 +30,8 @@
         android:text="E-mail"
         android:textColor="#243103"
         android:textSize="19dp" />
-<EditText
-        android:id="@+id/email_Parametres"
+    <EditText
+        android:id="@+id/EMAIL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="4dp"
@@ -37,7 +39,7 @@
         android:hint=""
         android:textColor="#CCEA7D" />
     <TextView
-        android:labelFor="@+id/TV_CodeVisiteur2"
+        android:labelFor="@+id/codev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
@@ -45,6 +47,14 @@
         android:text="Code Visiteur :"
         android:textColor="#243103"
         android:textSize="19dp" />
+    <EditText
+        android:id="@+id/CODEV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="#E9FDB7"
+        android:hint=""
+        android:textColor="#CCEA7D" />
 
     <TextView
         android:labelFor="@+id/TV_Nom2"
@@ -56,7 +66,7 @@
         android:textColor="#243103"
         android:textSize="19dp" />
     <EditText
-        android:id="@+id/Nom_Parametres"
+        android:id="@+id/NOM"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="4dp"
@@ -73,7 +83,7 @@
         android:textColor="#243103"
         android:textSize="19dp" />
     <EditText
-        android:id="@+id/Prenom_Parametres"
+        android:id="@+id/PRENOM"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="4dp"
@@ -89,6 +99,14 @@
         android:text="Url"
         android:textColor="#243103"
         android:textSize="19dp" />
+    <EditText
+        android:id="@+id/URLSERVEUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="#E9FDB7"
+        android:hint=""
+        android:textColor="#CCEA7D" />
     <TextView
         android:labelFor="@+id/TV_Motdepasse3"
         android:layout_width="wrap_content"
@@ -99,13 +117,14 @@
         android:textColor="#243103"
         android:textSize="19dp" />
     <EditText
-        android:id="@+id/Motdepasse_Parametres"
+        android:id="@+id/Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="4dp"
         android:background="#E9FDB7"
         android:hint=""
         android:textColor="#CCEA7D" />
+
 
     <Button
         android:id="@+id/main_button_11"
@@ -120,3 +139,4 @@
 
 
 </LinearLayout>
+
